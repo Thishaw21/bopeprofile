@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            color: #ffffff;
+            overflow: hidden;
+            background: url('anh2.jpg');
+            background-size: cover;
+            animation: backgroundAnimation 30s linear infinite;
+        }
+
+        @keyframes backgroundAnimation {
+            0% {
+                background-position: 0% 50%;
+            }
+            100% {
+                background-position: 100% 50%;
+            }
+        }
+
+        h1,
+        h2,
+        p,
+        ul {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 15px;
+            border-radius: 10px;
+            margin: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+            color: #ffdb58;
+        }
+
+        img {
+            border-radius: 50%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+        }
+
+        p,
+        ul {
+            text-align: center;
+            margin: 10px 0;
+            font-size: 1.2em;
+            color: #e0e0e0;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        li {
+            margin: 5px;
+        }
+
+        a {
+            color: #ffffff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .social-icons img {
+            width: 30px;
+            height: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Profile</h1>
+
+    <!-- Add Avatar -->
+    <img src="anh.jpg" alt="Avatar ">
+
+    <p><strong>Name:</strong> Ngô Hữu Thành Đạt (Bope)</p>
+    <p><strong>Birthdate:</strong> 02/07/2001</p>
+    <p><strong>Phone:</strong> 0935619463</p>
+    <p><strong>Mail:</strong> ngohuuthandat2701@gmail.com</p>
+
+    <h2>Social Media</h2>
+    <ul class="social-icons">
+        <li><a href="https://www.facebook.com/thanhdatdesign27/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+        <li><a href="linkedin.com/in/bopedesign" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+        <li><a href="https://www.instagram.com/lilbope2_7/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+    </ul>
+
+    <!-- <h2>Automatic Music Player</h2>
+    <audio controls autoplay>
+        <source src="zing.mp3" type="audio/mp3">
+        Your browser does not support the audio tag.
+    </audio> -->
+
+</body>
+
+</html>
